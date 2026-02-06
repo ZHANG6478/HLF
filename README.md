@@ -4,6 +4,8 @@ This repository contains the implementation of **HLF (High–Low Frequency Forec
 
 HLF automatically selects VMD hyperparameters, partitions intrinsic mode functions into high-/low-frequency components via joint energy–frequency analysis, and applies frequency-aligned forecasters to each branch before reconstructing the final forecast.
 
+Some experimental results are omitted due to GitHub limitations; please contact the authors if needed.
+
 ---
 
 ## Repository Structure
