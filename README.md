@@ -1,19 +1,19 @@
-# FDF (Frequency-aware Dual-model Forecasting)
+# HLF (High-Low Frequency Forecasting)
 
-This repository contains the implementation of **FDF (Frequency-aware Dual-model Forecasting)**, a frequency-aware dual-model forecasting framework for time series prediction.
+This repository contains the implementation of **HLF (High–Low Frequency Forecasting)**, a frequency-aware forecasting framework for time series prediction.
 
-FDF automatically selects VMD hyperparameters, splits modes into low/high-frequency components via joint energy–frequency analysis, and applies frequency-aligned predictors to each part before reconstructing the final forecast.
+HLF automatically selects VMD hyperparameters, partitions intrinsic mode functions into high-/low-frequency components via joint energy–frequency analysis, and applies frequency-aligned forecasters to each branch before reconstructing the final forecast.
 
 ---
 
 ## Repository Structure
 
 ```text
-FDF-code/
+HLF-code/
 ├── Baseline/                  # Baseline models on Fashion Retail Sales dataset
 ├── Baseline(Exchange)/        # Baseline models on Exchange Rate dataset
-├── FDF/                       # FDF method on Fashion Retail Sales dataset
-├── FDF(Exchange)/             # FDF method on Exchange Rate dataset
+├── HLF/                       # HLF method on Fashion Retail Sales dataset
+├── HLF(Exchange)/             # HLF method on Exchange Rate dataset
 └── Preprocessing/             # Data preprocessing scripts
 ```
 
