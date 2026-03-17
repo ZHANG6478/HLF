@@ -37,8 +37,8 @@ This pipeline enables effective modeling of mixed-frequency dynamics for accurat
 A-HLFDM-code/
 ├── Baseline/                  # Baseline models on Fashion Retail Sales dataset
 ├── Baseline(Exchange)/        # Baseline models on Exchange Rate dataset
-├── A-HLFDM/                       # A-HLFDM method on Fashion Retail Sales dataset
-├── A-HLFDM(Exchange)/             # A-HLFDM method on Exchange Rate dataset
+├── A-HLFDM/                   # A-HLFDM method on Fashion Retail Sales dataset
+├── A-HLFDM(Exchange)/         # A-HLFDM method on Exchange Rate dataset
 └── Preprocessing/             # Data preprocessing scripts
 ```
 
